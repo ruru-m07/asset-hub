@@ -1,81 +1,42 @@
-# Turborepo starter
+## Asset-Hub: The ultimate asset management system for developers
 
-This is an official starter Turborepo.
+### Asset-Hub is a self-hosted, open-source asset management system that helps developers store, organize, and manage their assets efficiently. With Asset-Hub, you can:
 
-## Using this example
+- Upload and retrieve images and other assets with ease
+- Generate random images on the fly
+- Optimize and transform images for faster loading
+- Integrate with your existing apps and workflows using our customizable API
+- Manage your assets from a user-friendly dashboard
 
-Run the following command:
+### Asset-Hub is designed to be flexible and extensible, so you can customize it to fit your specific needs. It's also backed by a strong community of developers who are always willing to help.
 
-```sh
-npx create-turbo@latest
+### Whether you're a solo developer or part of a large team, Asset-Hub can help you save time and improve your productivity.
+
+
+Features:
+
+- Image/asset upload
+- Image retrieval
+- Random image generation
+- Image optimization
+- Image transformations
+- Cloudinary integration
+- Customizable API
+- Developer documentation
+
+Getting started:
+
+```bash
+git clone https://github.com/ruru-m07/asset-hub
+cd asset-hub
+npm install
 ```
 
-## What's inside?
+Documentation:
 
-This Turborepo includes the following packages/apps:
+> coming soon
 
-### Apps and Packages
+Contributing:
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+### We welcome contributions from the community! Please read our contributing guidelines before submitting a pull request: https://www.contributor-covenant.org/version/2/1/code_of_conduct/
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
