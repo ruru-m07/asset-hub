@@ -12,7 +12,6 @@
 
 ##### Whether you're a solo developer or part of a large team, Asset-Hub can help you save time and improve your productivity.
 
-
 Features:
 
 - Image/asset upload
@@ -29,7 +28,7 @@ Getting started:
 ```bash
 git clone https://github.com/ruru-m07/asset-hub
 cd asset-hub
-npm install
+pnpm install
 ```
 
 Documentation:
@@ -39,4 +38,3 @@ Documentation:
 Contributing:
 
 ##### We welcome contributions from the community! Please read our contributing guidelines before submitting a pull request: https://www.contributor-covenant.org/version/2/1/code_of_conduct/
-

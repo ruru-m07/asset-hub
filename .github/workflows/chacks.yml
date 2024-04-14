@@ -1,0 +1,35 @@
+name: ☘️ checks
+
+on:
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔍 Checkout repository
+        uses: actions/checkout@v2
+
+      - name: 🫡 Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20.9.0"
+
+      - name: ☘️ Install Dependencies
+        run: pnpm install
+
+      - name: 💖 format check and write
+        run: |
+          pnpm run format:check
+          pnpm run format:write
+
+      - name: ✅ lint checks
+        run: pnpm run lint
+
+      - name: ✨ Production build
+        run: pnpm run build
