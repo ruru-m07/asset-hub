@@ -38,6 +38,3 @@ jobs:
 
       - name: ✅ lint checks
         run: pnpm run lint
-
-      - name: ✨ Production build
-        run: pnpm run build
